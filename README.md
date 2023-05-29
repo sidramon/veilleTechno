@@ -6,9 +6,7 @@
 
 <br/><br/>
 
-**Suivi 1**
-
-**Document des liens pour effectuer le travail**
+**Rapport de recherche**
 
 <br/><br/>
 
