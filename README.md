@@ -18,7 +18,7 @@
 
 <br/><br/>
 
-**31 mai 2023**
+**9 juin 2023**
 
 **Collège Shawinigan**
 
