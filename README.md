@@ -77,6 +77,7 @@ Cette technologie s'installe de plus en plus rapidement dans le processus de cr�
 # Médiagraphie
 
 **Recherches**
+
 *Contributeurs aux projets Wikimedia. (2023). Intelligence artificielle. _fr.wikipedia.org_. https://fr.wikipedia.org/wiki/Intelligence_artificielle*
 
 *Du Web, S. V. (2021, October 4). _Quels langages de code utiliser pour l’IA ? | École IPI_. IPI École D’informatique. https://www.ipi-ecoles.com/langage-programmation-ia/*
@@ -84,4 +85,5 @@ Cette technologie s'installe de plus en plus rapidement dans le processus de cr�
 *De Futura, L. R. (n.d.). _Intelligence artificielle : qu’est-ce que c’est ?_ Futura. https://www.futura-sciences.com/tech/definitions/informatique-intelligence-artificielle-555/*
 
 **Développement**
+
 *Shrimali, V., & Shrimali, V. (2023). Pre Trained Models for Image Classification - PyTorch. _LearnOpenCV – Learn OpenCV, PyTorch, Keras, Tensorflow With Examples and Tutorials_. https://learnopencv.com/pytorch-for-beginners-image-classification-using-pre-trained-models/*
