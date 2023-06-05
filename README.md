@@ -7,6 +7,8 @@
 <br/><br/>
 
 **Rapport de recherche**
+  
+**Veille technologique**
 
 <br/><br/>
 
