@@ -70,7 +70,7 @@ Présentement, on retrouve le traitement d'images et de vidéos dans divers doma
 
 L'idée d'intelligence artificielle apparait dans les années 1950 dans le livre du mathématicien Alan Turing _Computing Machinery and Intelligence_ où il propose la possibilité qu'une machine soit doté d'intelligence. De là provient l'idée du « test de Turing », ce test est une épreuve conçue pour évaluer la capacité d'une machine à présenter un comportement intelligent qui n'est pas discernable d'un vrai être humain. *« [. . .] un sujet interagit à l'aveugle avec un autre humain, puis avec une machine programmée pour formuler des réponses sensées. Si le sujet n'est pas capable de faire la différence, alors la machine a réussi le test et, selon l'auteur, peut véritablement être considérée comme « intelligente »  », https://www.futura-sciences.com/tech/definitions/informatique-intelligence-artificielle-555/*. Toutefois, bien que ce test soit un concept important dans le domaine de l'IA, il n'est pas considérer comme une mesure définitive de l'intelligence d'une machine, celle-ci s'étend au-delà d'une simple conversation. 
 
-Dès 1958 l'idée de réseau de neurones est introduite par le psychologue américain Frank Rosenblatt comme étant le premier système artificiel capable d'apprendre par expérience. Suite à cela, de nombreux développements et avancées ont été réalisés dans le domaine de l'IA.
+Dès 1958 l'idée de réseau de neurones est introduite par le psychologue américain Frank Rosenblatt comme étant le premier système artificiel capable d'apprendre par expérience. Suite à cela, de nombreux développements et avancées ont été réalisés dans le domaine de l'IA tel qu'élaborer plus haut.
 
 ![imageRecognition](https://github.com/sidramon/veilleTechno/blob/main/documentation/images/imageRecognition.jpg)
 
@@ -78,7 +78,7 @@ Dès 1958 l'idée de réseau de neurones est introduite par le psychologue amér
 
 ## Méthodologie
 
-Mon programme utilise la caméra de l'ordinateur pour fournir une image au model de reconnaissance d'image pré-entraîné qui utilise son réseau de neurone de classification pour identifier l'objet qui se trouve sur l'image.
+Mon programme utilise la caméra de l'ordinateur pour fournir une image au model de reconnaissance d'image pré-entraîné qui utilise son réseau de neurone de classification pour identifier l'objet qui se trouve sur l'image et afficher le résultat.
 
 ### Outils utilisés
 
@@ -140,8 +140,12 @@ Python est également un langage de programmation populaire et largement utilis�
 ---
 
 # Conclusion
-
   
+En conclusion, ce projet a exploré l'utilisation d'un modèle de reconnaissance d'image pour des objets. Nous avons examiné l'historique des intelligences artificielles, en soulignant les progrès réalisés dans ce domaine au fil du temps. Ensuite, nous avons détaillé la méthodologie utilisée pour mener ce projet, en mettant en évidence les différentes étapes et les outils utilisés, pour en évaluer les résultat obtenus. 
+
+La reconnaissance d'image est une discipline fascinante de l'intelligence artificielle, offrant la capacité aux machines de comprendre visuellement leur environnement. Grâce aux avancées technologiques, elle ouvre des perspectives prometteuses dans de nombreux domaines.
+
+Dans l'ensemble, ce projet a permis de mieux comprendre l'utilisation des modèles de reconnaissance d'image, en mettant en évidence leur potentiel dans divers domaines d'application.
 
 ---
 
