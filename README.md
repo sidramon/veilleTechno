@@ -78,33 +78,40 @@ Dès 1958 l'idée de réseau de neurones est introduite par le psychologue amér
 
 ## Méthodologie
 
+Mon programme utilise la caméra de l'ordinateur pour fournir une image au model de reconnaissance d'image pré-entraîné qui utilise son réseau de neurone de classification pour identifier l'objet qui se trouve sur l'image.
+
 ### Outils utilisés
 
--   PyCharm : un environnement de développement intégré (IDE) pour Python qui facilite l'écriture, le débogage et le test du code.
+-   **PyCharm :** un environnement de développement intégré (IDE) pour Python qui facilite l'écriture, le débogage et le test du code.
 
--   Python : un langage de programmation utilisé pour implémenter l'IA et interagir avec les bibliothèques nécessaires.
+-   **Python :** un langage de programmation utilisé pour implémenter l'IA et interagir avec les bibliothèques nécessaires.
 
--   PyTorch : une bibliothèque d'apprentissage automatique (deep learning) en Python qui fournit des outils pour la création et l'entraînement de réseaux de neurones.
+-   **PyTorch :** une bibliothèque d'apprentissage automatique (*deep learning*) en Python qui fournit des outils pour la création et l'entraînement de réseaux de neurones.
 
--   ResNet-101 : un modèle de réseau de neurones convolutif profond utilisé pour la classification d'images. Il est pré-entraîné sur de grands ensembles de données et peut être utilisé comme base pour d'autres tâches de vision par ordinateur.
+-   **ResNet-101 :** un modèle de réseau de neurones convolutif profond utilisé pour la classification d'images. Il est pré-entraîné sur de grands ensembles de données et peut être utilisé comme base pour d'autres tâches de vision par ordinateur.
 
 ### Concepts utilisés
 
--   Traitement d'images : l'ensemble des techniques et des algorithmes utilisés pour manipuler et analyser des images.
+-   **Traitement d'images :** l'ensemble des techniques et des algorithmes utilisés pour manipuler et analyser des images.
 
--   Vision par ordinateur : un domaine de l'intelligence artificielle qui se concentre sur l'acquisition, le traitement et l'analyse d'images et de vidéos pour permettre aux machines de comprendre et d'interagir avec leur environnement visuel.
+-   **Vision par ordinateur :** un domaine de l'intelligence artificielle qui se concentre sur l'acquisition, le traitement et l'analyse d'images et de vidéos pour permettre aux machines de comprendre et d'interagir avec leur environnement visuel.
 
--   Réseau de neurones : un modèle mathématique inspiré du fonctionnement du cerveau humain, utilisé en apprentissage automatique pour effectuer des tâches d'apprentissage, de classification et de prédiction.
+-   **Réseau de neurones :** un modèle mathématique inspiré du fonctionnement du cerveau humain, utilisé en apprentissage automatique pour effectuer des tâches d'apprentissage, de classification et de prédiction.
 
--   Classification d'images : un type de tâche en vision par ordinateur où l'objectif est de prédire la classe ou la catégorie d'une image donnée. Dans ce projet, le modèle ResNet-101 est utilisé pour classifier les images provenant de la caméra en temps réel.
+-   **Classification d'images :** un type de tâche en vision par ordinateur où l'objectif est de prédire la classe ou la catégorie d'une image donnée. Dans ce projet, le modèle ResNet-101 est utilisé pour classifier les images provenant de la caméra en temps réel.
 
 ## Résultats
+
+Le résultat final obtenu est très satisfaisant. L'IA parvient à identifier ce qui se trouve sur l'image avec un taux de réussite quasiment parfait. Sa seule limitation réside dans sa connaissance limitée à mille objets. Au départ on s'attendait utiliser un model qui englobe encore plus de choses comme les humains et les animaux, mais le model actuellement utilisé pour les objets retourne un résultat amplement suffisant.
+
 ![Ocarina](https://github.com/sidramon/veilleTechno/blob/main/documentation/images/ocarina.png)
 ![Water Bottle](https://github.com/sidramon/veilleTechno/blob/main/documentation/images/waterBottle.png)
 
 ## Débats
 
 À ce jour, plusieurs langages de programmation sont reconnus pour leur pertinence dans le développement d'intelligence artificielle, mais il y en a deux qui sortent plus particulièrement du lot : le **Python** et le **Java**.
+
+Pour sa facilité d'utilisation et ses bibliothèques clé en main, j'ai opté pour le **Python**, mais utilisé le **Java** aurait aussi été une option intéressante pour sa performance.
 
 ### Pourquoi Java ?
 
@@ -133,6 +140,8 @@ Python est également un langage de programmation populaire et largement utilis�
 ---
 
 # Conclusion
+
+  
 
 ---
 
