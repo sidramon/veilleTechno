@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-**Les IA de reconnaissance d'images**
+**Les IA de reconnaissance d'image**
 
 <br/><br/>
 
@@ -79,6 +79,8 @@ Dès 1958 l'idée de réseau de neurones est introduite par le psychologue amér
 ## Méthodologie
 
 Mon programme utilise la caméra de l'ordinateur pour fournir une image au model de reconnaissance d'image pré-entraîné qui utilise son réseau de neurone de classification pour identifier l'objet qui se trouve sur l'image et afficher le résultat.
+  
+Lorsque le modèle reçoit une image à prédire, il effectue plusieurs étapes. Tout d'abord, l'image est prétraitée pour la mettre dans un format approprié pour le modèle, comme le redimensionnement et la normalisation. Ensuite, l'image est passée à travers le modèle qui applique les opérations de calcul nécessaires pour générer une prédiction. Enfin, la prédiction est renvoyée sous forme de probabilités pour chaque classe, indiquant la confiance du modèle dans sa prédiction pour chaque classe possible de l'image.
 
 ### Outils utilisés
 
@@ -102,50 +104,55 @@ Mon programme utilise la caméra de l'ordinateur pour fournir une image au model
 
 ## Résultats
 
-Le résultat final obtenu est très satisfaisant. L'IA parvient à identifier ce qui se trouve sur l'image avec un taux de réussite quasiment parfait. Sa seule limitation réside dans sa connaissance limitée à mille objets. Au départ on s'attendait utiliser un model qui englobe encore plus de choses comme les humains et les animaux, mais le model actuellement utilisé pour les objets retourne un résultat amplement suffisant.
+Le résultat final obtenu est très satisfaisant. L'IA parvient à identifier ce qui se trouve sur l'image avec un taux de réussite quasiment parfait. Sa seule limitation réside dans sa connaissance limitée à mille objets. Au départ on s'attendait à utiliser un model qui englobe encore plus de choses comme les humains et les animaux, mais le model actuellement utilisé pour les objets retourne un résultat amplement suffisant pour le contexte de la recherche.
 
 ![Ocarina](https://github.com/sidramon/veilleTechno/blob/main/documentation/images/ocarina.png)
 ![Water Bottle](https://github.com/sidramon/veilleTechno/blob/main/documentation/images/waterBottle.png)
 
 ## Débats
 
-À ce jour, plusieurs langages de programmation sont reconnus pour leur pertinence dans le développement d'intelligence artificielle, mais il y en a deux qui sortent plus particulièrement du lot : le **Python** et le **Java**.
 
-Pour sa facilité d'utilisation et ses bibliothèques clé en main, j'ai opté pour le **Python**, mais utilisé le **Java** aurait aussi été une option intéressante pour sa performance.
+À ce jour, deux frameworks d'apprentissage automatique se distinguent dans le domaine de l'intelligence artificielle en **Python** : **PyTorch** et **TensorFlow**.
 
-### Pourquoi Java ?
+Il est important de noter que le choix entre PyTorch et TensorFlow dépend des besoins du projet. PyTorch est souvent privilégié pour sa convivialité en recherche et son flexibilité, tandis que TensorFlow est souvent préféré pour sa performance et son écosystème plus mature en entreprise.
 
-Java est un langage de programmation orienté objet couramment utilisé dans le domaine de la reconnaissance d'image. Ses principaux avantages sont :
+Voici quelques points positifs et négatifs à prendre en compte lorsqu'on compare TensorFlow et PyTorch :
 
-1.  **Portabilité** : Java est un langage de programmation portable, il peut être exécutés sur différents systèmes d'exploitation sans nécessiter de modifications majeures.
-    
-2.  **Orienté objet** : Java est un langage orienté objet, ce qui permet d'organiser le code en classes et en objets, favorisant ainsi une conception modulaire et une réutilisation du code.
-    
-3.  **Grande communauté et bibliothèques** : Java bénéficie d'une vaste communauté de développeurs et d'une abondance de bibliothèques disponibles. Il existe des bibliothèques spécialisées dans le traitement d'images et la reconnaissance d'image en Java, tel que *OpenCV Java* qui offre des fonctionnalités avancées.
-    
-4.  **Performance** : Bien que Java ne soit pas aussi performant que certains langages de bas niveau tels que le C++, il offre des performances adéquates pour de nombreux cas d'utilisation de la reconnaissance d'image. De plus, grâce aux améliorations continues de la JVM et aux optimisations du compilateur Java, les performances des applications Java s'améliorent régulièrement.
+### TensorFlow :
 
-### Pourquoi Python ?
+**Points positifs :**
 
-Python est également un langage de programmation populaire et largement utilisé dans le domaine de la reconnaissance d'image. Ses principaux avantages sont :
+1.  **Adoption généralisée :** TensorFlow est l'une des bibliothèques les plus populaires pour l'apprentissage automatique et est utilisé par de nombreuses entreprises et chercheurs. Il possède une large communauté de développeurs et une grande quantité de ressources disponibles en ligne.
+2.  **Déploiement efficace :** TensorFlow offre des outils pour déployer des modèles sur différentes plates-formes, y compris sur mobile (TensorFlow Lite) et sur le Web (TensorFlow.js). Il possède également TensorFlow Serving, qui facilite le déploiement des modèles en production.
+3.  **TensorFlow Extended (TFX) :** TensorFlow dispose d'une suite d'outils appelée TensorFlow Extended qui facilite la création de pipelines de bout en bout pour la préparation des données, la formation, le déploiement et la maintenance des modèles d'apprentissage automatique.
 
-1.  **Simplicité et lisibilité** : Python a été conçu pour être un langage facile à lire et à comprendre. Sa syntaxe simple et expressive permet aux développeurs d'écrire du code clair et concis, ce qui facilite la compréhension et la maintenance du code.
-    
-2.  **Large écosystème de bibliothèques** : Python dispose d'une vaste collection de bibliothèques spécialisées dans le traitement d'images et la reconnaissance d'images, telles que *OpenCV*, *scikit-image* et *TensorFlow*. Ces bibliothèques offrent des fonctionnalités avancées et des algorithmes clé en main.
-    
-3.  **Portabilité et compatibilité** : Python est un langage multiplateforme, ce qui signifie qu'il peut être exécuté sur divers systèmes d'exploitation tels que Windows, macOS et Linux. Il est également compatible avec de nombreux *frameworks* et outils de développement, ce qui facilite l'intégration de Python dans des projets existants.
-    
-4.  **Communauté active et support** : Python bénéficie d'une communauté active de développeurs qui contribuent constamment à son développement. Cette communauté fournit un support précieux sous la forme de documentation, de tutoriels, de forums de discussion et de packages open source, ce qui facilite l'apprentissage et la résolution des problèmes.
+**Points négatifs :**
+
+1.  **Courbe d'apprentissage abrupte :** TensorFlow peut être plus difficile à apprendre et à utiliser pour les débutants. La syntaxe peut sembler complexe, et la mise en place de certaines fonctionnalités avancées peut nécessiter une compréhension approfondie du framework.
+2.  **Moins convivial pour la recherche :** Bien que TensorFlow soit largement utilisé dans l'industrie, certains chercheurs trouvent que PyTorch est plus convivial pour la recherche en raison de sa syntaxe plus concise et de son mode de débogage plus intuitif.
+
+### PyTorch :
+
+**Points positifs :**
+
+1.  **Programmation dynamique :** PyTorch utilise un graphique de calcul dynamique, ce qui signifie que les utilisateurs peuvent définir et modifier les graphiques computationnels à la volée. Cela facilite le débogage et le prototypage rapide, et offre une plus grande flexibilité lors de la création de modèles.
+2.  **Compréhension intuitive :** La syntaxe de PyTorch est souvent considérée comme plus simple et plus intuitive, ce qui facilite la compréhension et l'apprentissage, en particulier pour les débutants en apprentissage automatique.
+3.  **Communauté de recherche active :** PyTorch est devenu très populaire parmi la communauté de recherche en apprentissage automatique, ce qui en fait un choix attrayant pour les chercheurs. De nombreux travaux de recherche sont publiés avec du code PyTorch, et il existe une abondance de tutoriels et de ressources de recherche disponibles.
+
+**Points négatifs :**
+
+1.  **Déploiement plus complexe :** PyTorch a historiquement été considéré comme moins convivial pour le déploiement en production. Cependant, des efforts sont en cours pour faciliter le déploiement avec des outils tels que TorchServe.
+2.  **Moins de support pour les plateformes mobiles :** Bien que PyTorch dispose de certaines options pour le déploiement sur mobile, comme PyTorch Mobile, TensorFlow offre une intégration plus étroite avec TensorFlow Lite, ce qui en fait un choix plus courant pour les applications mobiles.
 
 ---
 
 # Conclusion
   
-En conclusion, ce projet a exploré l'utilisation d'un modèle de reconnaissance d'image pour des objets. Nous avons examiné l'historique des intelligences artificielles, en soulignant les progrès réalisés dans ce domaine au fil du temps. Ensuite, nous avons détaillé la méthodologie utilisée pour mener ce projet, en mettant en évidence les différentes étapes et les outils utilisés, pour en évaluer les résultat obtenus. 
+En conclusion, ce projet a exploré l'utilisation d'un modèle de reconnaissance d'un objet sur une image. Nous avons examiné l'historique des intelligences artificielles, en soulignant les progrès réalisés dans ce domaine au fil du temps. Ensuite, nous avons détaillé la méthodologie utilisée pour mener ce projet, en mettant en évidence les différentes étapes et les outils utilisés, pour en évaluer les résultat obtenus. 
 
 La reconnaissance d'image est une discipline fascinante de l'intelligence artificielle, offrant la capacité aux machines de comprendre visuellement leur environnement. Grâce aux avancées technologiques, elle ouvre des perspectives prometteuses dans de nombreux domaines.
 
-Dans l'ensemble, ce projet a permis de mieux comprendre l'utilisation des modèles de reconnaissance d'image, en mettant en évidence leur potentiel dans divers domaines d'application.
+Dans l'ensemble, ce projet a permis de mieux comprendre l'utilisation des modèles de reconnaissance d'image, en mettant en évidence leur potentiel dans divers domaines d'application et j'espère en apprendre davantage sur l'univers de l'IA.
 
 ---
 
