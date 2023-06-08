@@ -172,6 +172,8 @@ Dans l'ensemble, ce projet a permis de mieux comprendre l'utilisation des modèl
 
 *_Qu’est-ce que la Computer Vision ? | IBM_. (n.d.). https://www.ibm.com/fr-fr/topics/computer-vision#:~:text=La%20vision%20par%20ordinateur%20est,sur%20la%20base%20de%20ces*
 
+*Kurama, V. (2020). PyTorch vs. TensorFlow: Key Differences to Know for Deep Learning. _Built In_. https://builtin.com/data-science/pytorch-vs-tensorflow*
+
 **Développement**
 
 *Shrimali, V., & Shrimali, V. (2023). Pre Trained Models for Image Classification - PyTorch. _LearnOpenCV – Learn OpenCV, PyTorch, Keras, Tensorflow With Examples and Tutorials_. https://learnopencv.com/pytorch-for-beginners-image-classification-using-pre-trained-models/*
