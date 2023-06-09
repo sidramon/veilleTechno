@@ -150,9 +150,7 @@ Voici quelques points positifs et négatifs à prendre en compte lorsqu'on compa
   
 En conclusion, ce projet a exploré l'utilisation d'un modèle de reconnaissance d'un objet sur une image. Nous avons examiné l'historique des intelligences artificielles, en soulignant les progrès réalisés dans ce domaine au fil du temps. Ensuite, nous avons détaillé la méthodologie utilisée pour mener ce projet, en mettant en évidence les différentes étapes et les outils utilisés, pour en évaluer les résultat obtenus. 
 
-La reconnaissance d'image est une discipline fascinante de l'intelligence artificielle, offrant la capacité aux machines de comprendre visuellement leur environnement. Grâce aux avancées technologiques, elle ouvre des perspectives prometteuses dans de nombreux domaines.
-
-Dans l'ensemble, ce projet a permis de mieux comprendre l'utilisation des modèles de reconnaissance d'image, en mettant en évidence leur potentiel dans divers domaines d'application et j'espère en apprendre davantage sur l'univers de l'IA.
+La reconnaissance d'image est une discipline fascinante de l'intelligence artificielle, offrant la capacité aux machines de comprendre visuellement leur environnement. Grâce aux avancées technologiques, elle ouvre des perspectives prometteuses dans de nombreux domaines. J'espère en apprendre davantage pour expérimenter d'autres réseaux de neurones plus complexes dans la prise de décision et l'IA générative.
 
 ---
 
