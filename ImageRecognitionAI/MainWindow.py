@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import ttk
 from PIL import Image, ImageTk
 import cv2
 from ImageRecognition import ImageRecognition
@@ -7,23 +6,16 @@ import time
 
 
 # MainWindow Class #
-
 class MainWindow:
     def __init__(self):
-        self.last_iteration_time = time.time()
-        self.window = tk.Tk()  # Window
-        self.toolBar = ttk.Frame(self.window)  # ToolBar
-        self.toolBar.pack(side="top", fill="x")
-        self.ir = ImageRecognition()  # Image recognition AI
+        self.last_iteration_time = time.time()  # Timer
+        self.window = tk.Tk()                   # Window
+        self.ir = ImageRecognition()            # Image recognition AI
 
         # Set up the window
         self.window.title("Image recognition tool")
         self.window.geometry("1080x720")
         self.window.resizable(False, False)
-
-        # Set up the toolbar
-        help_button = tk.Button(self.toolBar, text="Help")
-        help_button.pack(side="left")
 
         # Set up the video stream
         self.video_label = tk.Label(self.window)
@@ -46,6 +38,11 @@ class MainWindow:
         self.text_area.insert(tk.END, content)
         self.text_area.configure(state="disabled")
 
+    def start_camera(self):
+        global cap
+        cap = cv2.VideoCapture(0)
+        self.update_frame()
+
     def update_frame(self):
         ret, frame = cap.read()
         if ret:
@@ -57,13 +54,8 @@ class MainWindow:
             self.video_label.after(10, self.update_frame)  # Update the frame every 10 milliseconds
 
             elapsed_time = time.time() - self.last_iteration_time
-            if elapsed_time >= 1:
+            if elapsed_time >= 1:  # Each second recognize the image
                 newText = self.ir.recognize_image(photo)
                 print(newText)
                 self.update_text_area(newText)
                 self.last_iteration_time = time.time()
-
-    def start_camera(self):
-        global cap
-        cap = cv2.VideoCapture(0)
-        self.update_frame()
