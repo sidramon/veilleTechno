@@ -49,7 +49,7 @@
 
 # Introduction
   
-Depuis plusieurs mois, on ne cesse d'entendre parler du progrès des IA (intelligences artificielles) en particulier dans les domaines créatifs tels que la création d'images. Parmi ces avancées, on retrouve des IA telles que **DALL-E** et **Midjourney**, qui permettent de générer des images réalistes et créatives de manière impressionnante. Au cœur de ces avancées se trouve la reconnaissance d'image, un élément essentiel de cette évolution. C'est dans ce contexte que mon projet portera sur l'utilisation d'un model de reconnaissance d'image. Ce rapport abordera l'historique des IA, la méthodologie de mon projet, les résultats obtenus, ainsi qu'un débat entre deux langages de programmation.
+Depuis plusieurs mois, on ne cesse d'entendre parler du progrès des IA (intelligences artificielles) en particulier dans les domaines créatifs tels que la création d'images. Parmi ces avancées, on retrouve des IA telles que **DALL-E** et **Midjourney**, qui permettent de générer des images réalistes et créatives de manière impressionnante. Au cœur de ces avancées se trouve la reconnaissance d'image, un élément essentiel de cette évolution. C'est dans ce contexte que mon projet portera sur l'utilisation d'un modèle de reconnaissance d'image. Ce rapport abordera l'historique des IA, la méthodologie de mon projet, les résultats obtenus, ainsi qu'un débat entre deux langages de programmation.
 
 ---
 
